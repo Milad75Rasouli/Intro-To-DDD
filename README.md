@@ -1,3 +1,4 @@
+# An Intro To DDD
 # DDD(Domain Driven Design)
 As you might know well, __Microservices__ are being popular approach in recent years.
 and it's mostly because it makes our software __scalable and flexible__.
@@ -11,7 +12,6 @@ briefly, __DDD is a way of structuring and modeling our software__. So this mean
 ### Domain
 Domain is a topic that the software tends to work on. So in DDD the engineering team has to meet up with the topic expert(__Domain Expert__) to __share their knowledge__ with engineers.
 
-_explain the treading website at this time._
 
 As you can see DDD has 2 main parts which are __Tactical Design__ and __Strategic Design__.
 > Strategic Design contains everything related to the business like treading techniques. 
@@ -107,14 +107,6 @@ Invariants are generally __business rules/enforcements/requirements__ that you i
 
 ### Aggregate
 Aggregate is a pattern in Domain-Driven Design. A DDD aggregate is a cluster of domain objects __that can be treated as a single unit.__ An example may be an order and its line-items, these will be separate objects, but it's useful to treat the order (together with its line items) as a single aggregate.
-
-## Useful Links
-1.[What Are Domain-Driven Design Aggregates?](https://www.jamesmichaelhickey.com/domain-driven-design-aggregates/)
-
-2.[Implementing Aggregate in Farsi](https://virgool.io/@farshid.azizi/implement-aggregate-in-domin-layer-ddd-gmdurq5tjzuj)
-
-3.[DDD in Farsi](http://hadiahmadi.ir/category/%d9%85%d9%82%d8%a7%d9%84%d8%a7%d8%aa-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c/)
-
 
 ## Resources
 1.[What actually is a subdomain in domain-driven design?](https://stackoverflow.com/questions/73077578/what-actually-is-a-subdomain-in-domain-driven-design)
